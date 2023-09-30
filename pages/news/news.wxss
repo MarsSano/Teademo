@@ -1,0 +1,13 @@
+.news {
+  padding: 30rpx;
+}
+
+.news .loadOut {
+  text-align: center;
+  padding: 30rpx 0;
+}
+
+.news .loadOut .noData {
+  color: #666;
+  font-size: 30rpx;
+}

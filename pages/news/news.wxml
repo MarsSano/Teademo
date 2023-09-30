@@ -1,0 +1,19 @@
+<!-- 顶部栏 -->
+<xzs-header></xzs-header>
+<!-- 展示新闻 -->
+<view class="news">
+  <view class="content">
+    <view class="box" wx:for="{{newsArr}}" wx:key="_id">
+      <xzs-news-item item="{{item}}"></xzs-news-item>
+    </view>
+  </view>
+  <!-- 展示加载信息 -->
+  <view class="loadOut">
+    <!-- 发送请求后显示加载中 -->
+    <van-loading size="24px" wx:if="{{loading}}">加载中...</van-loading>
+    <!-- 没有更多数据时展示以下内容 -->
+    <view class="noData" wx:if="{{isData}}">
+    没有更多数据
+    </view>
+  </view>
+</view>

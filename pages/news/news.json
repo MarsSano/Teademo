@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "xzs-news-item":"/components/XZS-news-item/XZS-news-item"
+  },
+  "enablePullDownRefresh":true,
+  "backgroundColor": "#BDA066",
+  "navigationBarTitleText": "新闻资讯"
+}

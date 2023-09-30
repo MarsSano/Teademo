@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "xzs-news-item":"/components/XZS-news-item/XZS-news-item"
+  }
+}

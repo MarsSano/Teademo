@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-search": "@vant/weapp/search/index",
+    "xzs-product-item":"/components/XZS-product-item/XZS-product-item",
+    "van-empty": "@vant/weapp/empty/index"
+  }
+}

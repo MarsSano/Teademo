@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "xzs-product-item":"../../components/XZS-product-item/XZS-product-item"
+  },
+  "navigationBarTitleText": "茶品分类"
+}

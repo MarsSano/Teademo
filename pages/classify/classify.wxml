@@ -1,0 +1,27 @@
+<!-- 顶部栏 -->
+<xzs-header></xzs-header>
+
+<view class="banner">
+  <image class="pic" src="/images/teaBanner.jpg" mode="aspectFill" />
+</view>
+<!-- 分类导航 -->
+<view class="nav">
+  <van-tabs border color="#BDA066" text-active-color="#BDA066" active="{{ navActive }}" bind:click="navChange">
+    <van-tab title="{{item.classname}}" wx:for="{{navArr}}" wx:key="_id"></van-tab>
+  </van-tabs>
+</view>
+<!-- 分类后产品展示 -->
+<view class="content">
+  <view class="body">
+    <view class="box" wx:for="{{productArr}}" wx:key="_id">
+      <xzs-product-item item="{{item}}"></xzs-product-item>
+    </view>
+  </view>
+
+  <view class="loadOut">
+    <van-loading size="24px" wx:if="{{loading}}">加载中...</van-loading>
+    <view class="noDate">没有更多数据了</view>
+  </view>
+</view>
+<!-- 底部栏 -->
+<xzs-footer></xzs-footer>
