@@ -1,1 +1,1 @@
-# XZS-demo
+# Teademo
